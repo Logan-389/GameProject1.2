@@ -14,22 +14,9 @@ public class SceneManagerGoodEnd : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((!Input.GetKeyDown("escape")))
+        if ((Input.GetKeyDown("space")))
         {
             SceneManager.LoadScene("Title");
         }
-        if (Input.GetKeyDown("escape"))
-        {
-            Application.Quit();
-        }
     }
-
-    /*
-    private void OnGUI()
-    {
-        if (GUI.Button(new Rect(((Screen.width) /3)-25, ((Screen.height) /2)+40, 200, 75), "Click"))
-            //Rect = x, y, width, height
-            SceneManager.LoadScene("SampleScene");
-    }
-    */  
 }

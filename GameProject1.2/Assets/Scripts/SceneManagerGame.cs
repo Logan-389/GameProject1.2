@@ -14,13 +14,11 @@ public class SceneManagerGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetKeyDown("q"))
         {
             SceneManager.LoadScene("Title");
         }
-        if (Input.GetKeyDown("escape"))
-        {
-            Application.Quit();
-        }
+        */
     }
 }
