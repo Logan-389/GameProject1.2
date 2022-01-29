@@ -8,6 +8,8 @@ TagManager:
   - BridgeAnimation
   - BadEndTrigger
   - GoodEndTrigger
+  - FinalPuzzleTrigger
+  - WaterAnimation
   layers:
   - Default
   - TransparentFX
