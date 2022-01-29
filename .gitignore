@@ -66,4 +66,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Mac .DS_Store file.
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> e182f2e34cb0ae915c8397a7f011766db4c4e663
