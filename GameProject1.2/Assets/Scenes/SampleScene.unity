@@ -7964,6 +7964,7 @@ GameObject:
   - component: {fileID: 432698210}
   - component: {fileID: 432698209}
   - component: {fileID: 432698208}
+  - component: {fileID: 432698211}
   m_Layer: 12
   m_Name: tr_MiracleGrow
   m_TagString: Item
@@ -8047,6 +8048,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432698206}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &432698211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432698206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2934df624a19a400c94e23a67fdf21a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: miracle_grow
 --- !u!1 &433897286
 GameObject:
   m_ObjectHideFlags: 0
@@ -14588,6 +14602,7 @@ GameObject:
   - component: {fileID: 799281226}
   - component: {fileID: 799281225}
   - component: {fileID: 799281224}
+  - component: {fileID: 799281227}
   m_Layer: 12
   m_Name: tr_GrabbableWater
   m_TagString: Item
@@ -14671,6 +14686,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799281222}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &799281227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799281222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2934df624a19a400c94e23a67fdf21a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: water
 --- !u!1 &804196187
 GameObject:
   m_ObjectHideFlags: 0
@@ -33118,6 +33146,7 @@ GameObject:
   - component: {fileID: 1840962434}
   - component: {fileID: 1840962433}
   - component: {fileID: 1840962432}
+  - component: {fileID: 1840962435}
   m_Layer: 12
   m_Name: tr_Seed
   m_TagString: Item
@@ -33201,6 +33230,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840962430}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1840962435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840962430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2934df624a19a400c94e23a67fdf21a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: seed
 --- !u!1 &1842293760
 GameObject:
   m_ObjectHideFlags: 0
@@ -36332,6 +36374,7 @@ GameObject:
   - component: {fileID: 1974928990}
   - component: {fileID: 1974928989}
   - component: {fileID: 1974928988}
+  - component: {fileID: 1974928991}
   m_Layer: 12
   m_Name: tr_Bucket
   m_TagString: Untagged
@@ -36415,6 +36458,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974928986}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1974928991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974928986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2934df624a19a400c94e23a67fdf21a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: bucket
 --- !u!1 &1975867351
 GameObject:
   m_ObjectHideFlags: 0
@@ -38661,6 +38717,7 @@ GameObject:
   - component: {fileID: 2107029030}
   - component: {fileID: 2107029032}
   - component: {fileID: 2107029031}
+  - component: {fileID: 2107029033}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -38810,6 +38867,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bridge: {fileID: 1122829768}
   tr_monster: {fileID: 1006701030}
+--- !u!114 &2107029033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107029024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8759e927c86154a3abb3ca3eae7112b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2108525617
 GameObject:
   m_ObjectHideFlags: 0
