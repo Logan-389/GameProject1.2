@@ -13,7 +13,7 @@ public class Inventory : MonoBehaviour
     void Update() {
         if (itemToPickUp != null && Input.GetKeyDown(KeyCode.E))
         {
-            items.Add(itemToPickUp.name);
+            items.Add(itemToPickUp.id);
             Destroy(itemToPickUp.gameObject);
             itemToPickUp = null;
         }
