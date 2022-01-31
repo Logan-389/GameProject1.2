@@ -8298,7 +8298,7 @@ GameObject:
   - component: {fileID: 432698211}
   m_Layer: 12
   m_Name: tr_MiracleGrow
-  m_TagString: Item
+  m_TagString: GetMiracleGrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15031,7 +15031,7 @@ GameObject:
   - component: {fileID: 799281227}
   m_Layer: 12
   m_Name: tr_GrabbableWater
-  m_TagString: Item
+  m_TagString: GetWater
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15044,8 +15044,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799281222}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -73.7, y: 0, z: 292.67}
-  m_LocalScale: {x: 53.168186, y: 3, z: 3}
+  m_LocalPosition: {x: -70, y: 0, z: 295.5}
+  m_LocalScale: {x: 83.54882, y: 3, z: 5.809069}
   m_Children: []
   m_Father: {fileID: 1244779024}
   m_RootOrder: 3
@@ -21975,7 +21975,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16ad5e49d23b307489c08fc04be2b7df, type: 2}
+  - {fileID: 2100000, guid: 4238bc16ab3c4c2499985c30bc4e74d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33812,8 +33812,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826535544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.8, y: -0.8019198, z: -3.7916107}
-  m_LocalScale: {x: 10.132, y: 6.1487055, z: 33.687057}
+  m_LocalPosition: {x: -22, y: -0.8019198, z: -3.7916107}
+  m_LocalScale: {x: 24.726078, y: 6.1487055, z: 23.877386}
   m_Children: []
   m_Father: {fileID: 1677506278}
   m_RootOrder: 0
@@ -34275,7 +34275,7 @@ GameObject:
   - component: {fileID: 1840962435}
   m_Layer: 12
   m_Name: tr_Seed
-  m_TagString: Item
+  m_TagString: GetSeed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34288,7 +34288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840962430}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -72.5, y: 0, z: 129.7}
+  m_LocalPosition: {x: -84.4, y: 0, z: 130.3}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 1244779024}
@@ -37717,7 +37717,7 @@ GameObject:
   - component: {fileID: 1974928991}
   m_Layer: 12
   m_Name: tr_Bucket
-  m_TagString: Untagged
+  m_TagString: GetBucket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40214,7 +40214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107029024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.100005, z: 0}
+  m_LocalPosition: {x: -76.6, y: 0.100005, z: 105.1}
   m_LocalScale: {x: 1.6, y: 0.01, z: 1.6}
   m_Children:
   - {fileID: 963194228}

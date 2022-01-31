@@ -9,6 +9,10 @@ TagManager:
   - BadEndTrigger
   - GoodEndTrigger
   - DoorAnimation
+  - GetSeed
+  - GetBucket
+  - GetWater
+  - GetMiracleGrow
   layers:
   - Default
   - TransparentFX

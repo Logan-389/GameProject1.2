@@ -52,6 +52,30 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: tr_getSeed
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: tr_getMiracleGrow
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: tr_getBucket
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: tr_getWater
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -81,6 +105,18 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: tr_bridge_anim
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: tr_getSeed
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: tr_getMiracleGrow
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: tr_getBucket
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: tr_getWater
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6960548619951715391}

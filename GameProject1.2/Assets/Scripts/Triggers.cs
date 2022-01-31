@@ -37,8 +37,24 @@ public class Triggers : MonoBehaviour
                 //Debug.Log("BridgeAnimation was triggered");
                 animator_Bridge.SetTrigger("tr_bridge_anim");
                 animator_Bridge.SetBool("bool_StandingByBridge", true);
+                if (Input.GetKeyDown("e"))
+                {
+                    animator_Bridge.SetBool("bool_bridge", true);
+                    Debug.Log("You pressed e");
+                }
                 break;
-
+            case "GetSeed":
+                animator_Bridge.SetTrigger("tr_getSeed");
+                break;
+            case "GetBucket":
+                animator_Bridge.SetTrigger("tr_getBucket");
+                break;
+            case "GetMiracleGrow":
+                animator_Bridge.SetTrigger("tr_getMiracleGrow");
+                break;
+            case "GetWater":
+                animator_Bridge.SetTrigger("tr_getWater");
+                break;
             case "BadEndTrigger":
                 Debug.Log("You got the bad end.");
                 SceneManager.LoadScene("BadEnd");
@@ -71,6 +87,8 @@ public class Triggers : MonoBehaviour
                // Debug.Log("BridgeAnimation was triggered (on exit)");
                 animator_Bridge.SetTrigger("tr_bridge_anim");
                 animator_Bridge.SetBool("bool_StandingByBridge", false);
+                animator_Bridge.SetBool("bool_bridge", false);
+                animator_Bridge.SetBool("bool_bridge", false);
                 break;
             case "Door Animation":
                 Debug.Log("Door opened");
