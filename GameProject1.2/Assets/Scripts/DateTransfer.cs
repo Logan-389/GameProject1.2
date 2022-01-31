@@ -14,10 +14,12 @@ public class DateTransfer : MonoBehaviour
 
     public GameObject codeEnterMenuUI;
 
+    public GameObject InvisWall2;
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (GameIsPausedCode)
             {
@@ -50,6 +52,7 @@ public class DateTransfer : MonoBehaviour
         if (theDate.Equals(theCorrectDate))
         {
             textDisplay.GetComponent<Text>().text = "The date " + theDate + " is correct!";
+            InvisWall2.SetActive(false);
         } else
         {
             textDisplay.GetComponent<Text>().text = "The date " + theDate + " is incorrect!";

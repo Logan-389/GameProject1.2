@@ -7,23 +7,22 @@ public class Triggers : MonoBehaviour
 {
     //public AudioSource sound1;
 
+
     public GameObject Bridge;
     Animator animator_Bridge;
 
     public GameObject tr_monster;
 
     public GameObject Door_Left;
+    Animator animator_Door_Left;
     public GameObject Door_Right;
-    Animator animator_FinalPuzzle1;
-    Animator animator_FinalPuzzle2;
+    Animator animator_Door_Right;
 
     void Start()
     {
-
         animator_Bridge = Bridge.GetComponent<Animator>();
-        animator_FinalPuzzle1 = Door_Left.GetComponent<Animator>();
-        animator_FinalPuzzle2 = Door_Right.GetComponent<Animator>();
-
+        animator_Door_Left = Door_Left.GetComponent<Animator>();
+        animator_Door_Right = Door_Right.GetComponent<Animator>();
     }
 
     public void OnTriggerStay(Collider col)
@@ -48,14 +47,13 @@ public class Triggers : MonoBehaviour
                 Debug.Log("You got the good end.");
                 SceneManager.LoadScene("GoodEnd");
                 break;
-            case "FinalPuzzleTrigger":
-                Debug.Log("Final Puzzle.");
-                animator_FinalPuzzle1.SetTrigger("tr_FinalPuzzle");
-                animator_FinalPuzzle2.SetTrigger("tr_FinalPuzzle");
-                animator_FinalPuzzle1.SetBool("bool_StandingByEnd1", true);
-                animator_FinalPuzzle2.SetBool("bool_StandingByEnd2", true);
+            case "DoorAnimation":
+                Debug.Log("Door opened");
+                animator_Door_Left.SetTrigger("tr_door_anim");
+                animator_Door_Right.SetTrigger("tr_door_anim");
+                animator_Door_Left.SetBool("bool_StandingByDoorLeft", true);
+                animator_Door_Right.SetBool("bool_StandingByDoorRight", true);
                 break;
-
 
         }
     }
@@ -74,11 +72,12 @@ public class Triggers : MonoBehaviour
                 animator_Bridge.SetTrigger("tr_bridge_anim");
                 animator_Bridge.SetBool("bool_StandingByBridge", false);
                 break;
-            case "FinalPuzzleTrigger":
-                animator_FinalPuzzle1.SetTrigger("tr_FinalPuzzle");
-                animator_FinalPuzzle2.SetTrigger("tr_FinalPuzzle");
-                animator_FinalPuzzle1.SetBool("bool_StandingByEnd1", false);
-                animator_FinalPuzzle2.SetBool("bool_StandingByEnd2", false);
+            case "Door Animation":
+                Debug.Log("Door opened");
+                animator_Door_Left.SetTrigger("tr_door_anim");
+                animator_Door_Right.SetTrigger("tr_door_anim");
+                animator_Door_Left.SetBool("bool_StandingByDoorLeft", false);
+                animator_Door_Right.SetBool("bool_StandingByDoorRight", false);
                 break;
 
         }

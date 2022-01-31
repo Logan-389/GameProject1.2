@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class FP_ControllerMovement : MonoBehaviour
 {
-    public float walkingSpeed = 11.5f;
-    public float runningSpeed = 17.5f;
+    public float walkingSpeed = 13.5f;
+    public float runningSpeed = 20f;
     //public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
     public Camera playerCamera;
@@ -40,8 +40,12 @@ public class FP_ControllerMovement : MonoBehaviour
             float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
             float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
             float movementDirectionY = moveDirection.y;
-            moveDirection = (forward * curSpeedX) + (right * curSpeedY);
+            moveDirection = (forward + right).normalized;
+
+            moveDirection.z *= curSpeedX;
+            moveDirection.x *= curSpeedY;
          
+            Debug.Log(moveDirection);
 
             // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
             // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
