@@ -15,6 +15,7 @@ TagManager:
   - GetMiracleGrow
   - BadEndTrigger2
   - TurnOnMonster2
+  - HidingSpot
   layers:
   - Default
   - TransparentFX
