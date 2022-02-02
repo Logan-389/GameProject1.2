@@ -12,6 +12,9 @@ public class Triggers : MonoBehaviour
     Animator animator_Bridge;
 
     public GameObject tr_monster;
+    public GameObject tr_monster2;
+    public GameObject monster;
+    public GameObject monster2;
 
     public GameObject Door_Left;
     Animator animator_Door_Left;
@@ -55,7 +58,15 @@ public class Triggers : MonoBehaviour
             case "GetWater":
                 animator_Bridge.SetTrigger("tr_getWater");
                 break;
+            case "TurnOnMonster2":
+                monster.SetActive(false);
+                monster2.SetActive(true);
+                break;
             case "BadEndTrigger":
+                Debug.Log("You got the bad end.");
+                SceneManager.LoadScene("BadEnd");
+                break;
+            case "BadEndTrigger2":
                 Debug.Log("You got the bad end.");
                 SceneManager.LoadScene("BadEnd");
                 break;

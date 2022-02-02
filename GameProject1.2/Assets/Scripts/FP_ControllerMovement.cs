@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class FP_ControllerMovement : MonoBehaviour
 {
-    public float walkingSpeed = 13.5f;
-    public float runningSpeed = 20f;
+    public float walkingSpeed = 20f;
+    public float runningSpeed = 35f;
     //public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
     public Camera playerCamera;

@@ -13,6 +13,8 @@ TagManager:
   - GetBucket
   - GetWater
   - GetMiracleGrow
+  - BadEndTrigger2
+  - TurnOnMonster2
   layers:
   - Default
   - TransparentFX
