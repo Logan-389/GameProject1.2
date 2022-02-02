@@ -47,11 +47,11 @@ public class MonsterAI : MonoBehaviour
         if (randTime <= 0.0f && hunting == true)
         {
             hunting = false;
-            randTime = Random.Range(10, 60);
+            randTime = Random.Range(30, 120);
         } else if (randTime <= 0.0f && hunting == false)
         {
             hunting = true;
-            randTime = Random.Range(10, 60);
+            randTime = Random.Range(30, 100);
         }
     }
 }
