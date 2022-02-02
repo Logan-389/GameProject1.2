@@ -44,18 +44,10 @@ public class MonsterAI : MonoBehaviour
         while (true)
         {
             hunting = false;
-<<<<<<< HEAD
-            randTime = Random.Range(30, 120);
-        } else if (randTime <= 0.0f && hunting == false)
-        {
-            hunting = true;
-            randTime = Random.Range(30, 100);
-=======
             agent.destination = monsterHouse.transform.position;
             yield return new WaitForSeconds(Random.Range(10, 60));
             hunting = true;
             yield return new WaitForSeconds(Random.Range(10, 60));
->>>>>>> 542de1b855b60a268597b020119d05366b1b199e
         }
     }
 

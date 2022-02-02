@@ -15,14 +15,10 @@ TagManager:
   - GetMiracleGrow
   - BadEndTrigger2
   - TurnOnMonster2
-<<<<<<< HEAD
   - CatBeginningDialogue
   - CatBridgeDialogue
   - CatExitDialogue
   - CatLakeDialogue
-=======
-  - HidingSpot
->>>>>>> 542de1b855b60a268597b020119d05366b1b199e
   layers:
   - Default
   - TransparentFX
