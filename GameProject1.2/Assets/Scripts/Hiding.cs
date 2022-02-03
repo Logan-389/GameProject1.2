@@ -9,7 +9,7 @@ public class Hiding : MonoBehaviour
     
     void Start()
     {
-        monsters = FindObjectsOfType<MonsterAI>();
+        monsters = FindObjectsOfType<MonsterAI>(true);
     }
 
 
@@ -20,7 +20,10 @@ public class Hiding : MonoBehaviour
             Debug.Log("Entered Hiding Spot");
             foreach (var monster in monsters)
             {
-                monster.StopHuntCycle();
+                if (monster.isActiveAndEnabled)
+                {
+                    monster.StopHuntCycle();
+                }
             }
         }
     }
@@ -33,7 +36,10 @@ public class Hiding : MonoBehaviour
             foreach (var monster in monsters)
             {
                 Debug.Log("Left Hiding Spot");
-                monster.StartHuntCycle();
+                if (monster.isActiveAndEnabled)
+                {
+                    monster.StartHuntCycle();
+                }
             }
         }
     }

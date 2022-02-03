@@ -11,7 +11,7 @@ public class MonsterAI : MonoBehaviour
 
     GameObject player;
 
-    GameObject monsterHouse;
+    public Transform homePoint;
 
     private bool hunting;
 
@@ -22,7 +22,6 @@ public class MonsterAI : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player");
-        monsterHouse = GameObject.Find("MonsterHouse");
         StartHuntCycle();
     }
 
@@ -30,8 +29,6 @@ public class MonsterAI : MonoBehaviour
     void FixedUpdate()
     {
         
-        Debug.Log(hunting);
-
         if (hunting == true)
         {
             agent.destination = player.transform.position;
@@ -39,12 +36,16 @@ public class MonsterAI : MonoBehaviour
 
     }
 
+    void OnDisable() {
+        StopAllCoroutines();
+    }
+
     IEnumerator HuntCycle()
     {
         while (true)
         {
             hunting = false;
-            agent.destination = monsterHouse.transform.position;
+            agent.destination = homePoint.position;
             yield return new WaitForSeconds(Random.Range(10, 60));
             hunting = true;
             yield return new WaitForSeconds(Random.Range(10, 180));
@@ -68,7 +69,7 @@ public class MonsterAI : MonoBehaviour
         }
         activeHuntCycle = null;
         hunting = false;
-        agent.destination = monsterHouse.transform.position;
+        agent.destination = homePoint.position;
     }
 
 }
