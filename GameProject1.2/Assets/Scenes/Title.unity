@@ -150,7 +150,7 @@ TextMesh:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27440423}
   m_Text: "'wasd'\t\t\tmove\n'q'\t\t\t\t\tto title\n'e'\t\t\t\t\tinteract\n'esc'\t\t\t\tpause
-    menu"
+    menu\n'shift'\t            run"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -245,7 +245,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838750628}
-  m_Text: Title
+  m_Text: Cat's Eye Dream
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -308,7 +308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838750628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.9, y: 7.1, z: 4.8}
+  m_LocalPosition: {x: -11.94, y: 7.1, z: 4.8}
   m_LocalScale: {x: 0.100796014, y: 0.11286322, z: 0.09834717}
   m_Children: []
   m_Father: {fileID: 0}
@@ -501,7 +501,7 @@ Transform:
   m_GameObject: {fileID: 1091028808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.3, y: 3.3, z: -3.2}
-  m_LocalScale: {x: 11.311221, y: 2.4567766, z: 1}
+  m_LocalScale: {x: 13.011298, y: 2.4567766, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

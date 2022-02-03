@@ -21,6 +21,7 @@ public class Triggers : MonoBehaviour
     /* puzzle 1 */
     public GameObject Bridge;
     public GameObject InvisWall_Lake;
+    public GameObject CodeInputMenu;
     Animator animator_Bridge;
 
     /* monster */
@@ -77,6 +78,9 @@ public class Triggers : MonoBehaviour
             case "TurnOnMonster2":
                 monster.SetActive(false);
                 monster2.SetActive(true);
+                break;
+            case "TriggerForDate":
+                CodeInputMenu.SetActive(true);
                 break;
             case "CatBeginningDialogue":
                 Debug.Log("Meow");
@@ -159,6 +163,9 @@ public class Triggers : MonoBehaviour
             case "CatExitDialogue":
                 Debug.Log("Meow");
                 catDialogue4.SetActive(false);
+                break;
+            case "TriggerForDate":
+                CodeInputMenu.SetActive(false);
                 break;
 
         }

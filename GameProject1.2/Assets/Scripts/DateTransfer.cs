@@ -19,6 +19,8 @@ public class DateTransfer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        /*
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (GameIsPausedCode)
@@ -30,8 +32,9 @@ public class DateTransfer : MonoBehaviour
                 PauseCode();
             }
         }
+        */
     }
-    public void ResumeCode()
+     void ResumeCode()
     {
         codeEnterMenuUI.SetActive(false);
         //Time.timeScale = 1f;
