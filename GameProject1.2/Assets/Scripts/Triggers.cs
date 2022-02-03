@@ -20,6 +20,7 @@ public class Triggers : MonoBehaviour
 
     /* puzzle 1 */
     public GameObject Bridge;
+    public GameObject InvisWall_Lake;
     Animator animator_Bridge;
 
     /* monster */
@@ -65,6 +66,7 @@ public class Triggers : MonoBehaviour
                 break;
             case "GetBucket":
                 animator_Bridge.SetTrigger("tr_getBucket");
+                InvisWall_Lake.SetActive(false);
                 break;
             case "GetMiracleGrow":
                 animator_Bridge.SetTrigger("tr_getMiracleGrow");

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class MonsterAI : MonoBehaviour
+public class Monster2AI : MonoBehaviour
 {
     
 
@@ -22,7 +22,7 @@ public class MonsterAI : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player");
-        monsterHouse = GameObject.Find("MonsterHouse");
+        monsterHouse = GameObject.Find("MonsterHouse2");
         StartHuntCycle();
     }
 
