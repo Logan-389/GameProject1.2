@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3a36b7dc7e17b546abd0cce4bb59d81
+guid: c2858d966fefbfa4eb7539914da2568d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,8 +9,9 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Birds of a Feather
-  fallbackFontReferences: []
+  - Metropolis
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 12b7eaf48205cb94abf68c17bcaf52c4, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

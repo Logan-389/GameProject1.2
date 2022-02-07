@@ -43,6 +43,25 @@ public class Triggers : MonoBehaviour
         animator_Door_Right = Door_Right.GetComponent<Animator>();
     }
 
+    public void OnTriggerEnter(Collider col)
+    {
+        // Grab a referance to the triggered object's tag
+        string tag = col.tag;
+
+        // and compares it to the cases below.
+        switch (tag)
+        {
+            
+            case "CatBeginningDialogue":
+                Debug.Log("Meow");
+                sound1.Play();
+                catDialogue1.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            
+
+        }
+    }
 
     public void OnTriggerStay(Collider col)
     {
@@ -81,11 +100,6 @@ public class Triggers : MonoBehaviour
                 break;
             case "TriggerForDate":
                 CodeInputMenu.SetActive(true);
-                break;
-            case "CatBeginningDialogue":
-                Debug.Log("Meow");
-                sound1.Play();
-                catDialogue1.SetActive(true);
                 break;
             case "CatBridgeDialogue":
                 Debug.Log("Meow");
