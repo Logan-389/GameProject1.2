@@ -22,6 +22,7 @@ TagManager:
   - HidingSpot
   - ActivateDate
   - TriggerForDate
+  - CatVineDialogue
   layers:
   - Default
   - TransparentFX
