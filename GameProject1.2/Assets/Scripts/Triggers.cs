@@ -17,6 +17,12 @@ public class Triggers : MonoBehaviour
     public GameObject catDialogue3;
     public AudioSource sound4;
     public GameObject catDialogue4;
+    public AudioSource sound5;
+    public GameObject catDialogue5;
+    public AudioSource sound6;
+    public GameObject catDialogue6;
+    public AudioSource sound7;
+    public GameObject catDialogue7;
 
     /* puzzle 1 */
     public GameObject Bridge;
@@ -58,7 +64,42 @@ public class Triggers : MonoBehaviour
                 catDialogue1.SetActive(true);
                 Time.timeScale = 0f;
                 break;
-            
+            case "CatVineDialogue":
+                Debug.Log("Meow");
+                sound2.Play();
+                catDialogue2.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case "CatLakeDialogue":
+                Debug.Log("Meow");
+                sound3.Play();
+                catDialogue3.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case "CatExitDialogue":
+                Debug.Log("Meow");
+                sound4.Play();
+                catDialogue4.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case "CatBridgeDialogue":
+                Debug.Log("Meow");
+                sound5.Play();
+                catDialogue5.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case "CatHouseLeftDialogue":
+                Debug.Log("Meow");
+                sound6.Play();
+                catDialogue6.SetActive(true);
+                Time.timeScale = 0f;
+                break;
+            case "CatHouseRightDialogue":
+                Debug.Log("Meow");
+                sound7.Play();
+                catDialogue7.SetActive(true);
+                Time.timeScale = 0f;
+                break;
 
         }
     }
@@ -100,21 +141,6 @@ public class Triggers : MonoBehaviour
                 break;
             case "TriggerForDate":
                 CodeInputMenu.SetActive(true);
-                break;
-            case "CatBridgeDialogue":
-                Debug.Log("Meow");
-                sound3.Play();
-                catDialogue3.SetActive(true);
-                break;
-            case "CatLakeDialogue":
-                Debug.Log("Meow");
-                sound2.Play();
-                catDialogue2.SetActive(true);
-                break;
-            case "CatExitDialogue":
-                Debug.Log("Meow");
-                sound4.Play();
-                catDialogue4.SetActive(true);
                 break;
             case "BadEndTrigger":
                 Debug.Log("You got the bad end.");
@@ -166,17 +192,29 @@ public class Triggers : MonoBehaviour
                 Debug.Log("Meow");
                 catDialogue1.SetActive(false);
                 break;
-            case "CatBridgeDialogue":
+            case "CatVineDialogue":
                 Debug.Log("Meow");
-                catDialogue3.SetActive(false);
+                catDialogue2.SetActive(false);
                 break;
             case "CatLakeDialogue":
                 Debug.Log("Meow");
-                catDialogue2.SetActive(false);
+                catDialogue3.SetActive(false);
                 break;
             case "CatExitDialogue":
                 Debug.Log("Meow");
                 catDialogue4.SetActive(false);
+                break;
+            case "CatBridgeDialogue":
+                Debug.Log("Meow");
+                catDialogue5.SetActive(false);
+                break;
+            case "CatHouseLeftDialogue":
+                Debug.Log("Meow");
+                catDialogue6.SetActive(false);
+                break;
+            case "CatHouseRightDialogue":
+                Debug.Log("Meow");
+                catDialogue7.SetActive(false);
                 break;
             case "TriggerForDate":
                 CodeInputMenu.SetActive(false);
