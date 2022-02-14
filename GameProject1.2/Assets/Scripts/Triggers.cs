@@ -100,6 +100,10 @@ public class Triggers : MonoBehaviour
                 catDialogue7.SetActive(true);
                 Time.timeScale = 0f;
                 break;
+            case "TriggerForDate":
+                CodeInputMenu.SetActive(true);
+                Time.timeScale = 0f;
+                break;
 
         }
     }
@@ -135,12 +139,12 @@ public class Triggers : MonoBehaviour
             case "GetWater":
                 animator_Bridge.SetTrigger("tr_getWater");
                 break;
+            case "TurnOnMonster1":
+                monster.SetActive(true);
+                break;
             case "TurnOnMonster2":
                 monster.SetActive(false);
                 monster2.SetActive(true);
-                break;
-            case "TriggerForDate":
-                CodeInputMenu.SetActive(true);
                 break;
             case "BadEndTrigger":
                 Debug.Log("You got the bad end.");

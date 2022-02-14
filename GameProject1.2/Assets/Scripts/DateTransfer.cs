@@ -48,6 +48,13 @@ public class DateTransfer : MonoBehaviour
         GameIsPausedCode = true;
     }
 
+    public void ExitMenu()
+    {
+        codeEnterMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPausedCode = false;
+    }
+
     public void StoreDate()
     {
         theCorrectDate = "0427";
@@ -56,9 +63,11 @@ public class DateTransfer : MonoBehaviour
         {
             textDisplay.GetComponent<Text>().text = "The date " + theDate + " is correct!";
             InvisWall2.SetActive(false);
+            codeEnterMenuUI.SetActive(false);
+            Time.timeScale = 1f;
         } else
         {
-            textDisplay.GetComponent<Text>().text = "The date " + theDate + " is incorrect!";
+            textDisplay.GetComponent<Text>().text = theDate + " doesn't seem right...";
         }
         
     }

@@ -25,6 +25,7 @@ TagManager:
   - CatVineDialogue
   - CatHouseLeftDialogue
   - CatHouseRightDialogue
+  - TurnOnMonster1
   layers:
   - Default
   - TransparentFX
