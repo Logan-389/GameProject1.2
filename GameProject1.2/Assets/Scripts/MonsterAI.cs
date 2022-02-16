@@ -16,6 +16,7 @@ public class MonsterAI : MonoBehaviour
     private bool hunting;
 
     IEnumerator activeHuntCycle = null;
+    IEnumerator activeWanderCycle = null;
 
     // Start is called before the first frame update
     void Start()
@@ -52,12 +53,37 @@ public class MonsterAI : MonoBehaviour
         }
     }
 
+    IEnumerator WanderCycle()
+    {
+        hunting = false;
+        var wanderOrigin = transform.position;
+        Debug.Log("Wandering around " + wanderOrigin);
+        for (int i = 0; i < 4; i++)
+        {
+            
+            agent.destination = wanderOrigin + new Vector3(Random.Range(-1, 1), 0, Random.Range(-1, 1));
+
+            yield return new WaitForSeconds(4);
+        }
+
+        agent.destination = homePoint.position;
+
+
+
+    }
+
 
     public void StartHuntCycle()
     {
         Debug.Log("Starting Hunt Cycle");
         activeHuntCycle = HuntCycle();
         StartCoroutine(activeHuntCycle);
+        if (activeWanderCycle != null)
+        {
+            StopCoroutine(activeWanderCycle);
+            hunting = true;
+        }
+        activeWanderCycle = null;
     }
 
     public void StopHuntCycle()
@@ -66,6 +92,11 @@ public class MonsterAI : MonoBehaviour
         if (activeHuntCycle != null)
         {
             StopCoroutine(activeHuntCycle);
+            if (hunting)
+            {
+                activeWanderCycle = WanderCycle();
+                StartCoroutine(activeWanderCycle);
+            }
         }
         activeHuntCycle = null;
         hunting = false;
