@@ -42,6 +42,12 @@ public class Triggers : MonoBehaviour
     public GameObject Door_Right;
     Animator animator_Door_Right;
 
+    /* item UI */
+    public GameObject seedIMG;
+    public GameObject miracleGrowIMG;
+    public GameObject bucketIMG;
+    public GameObject waterBucketIMG;
+
     void Start()
     {
         animator_Bridge = Bridge.GetComponent<Animator>();
@@ -120,10 +126,12 @@ public class Triggers : MonoBehaviour
                 //Debug.Log("BridgeAnimation was triggered");
                 animator_Bridge.SetTrigger("tr_bridge_anim");
                 animator_Bridge.SetBool("bool_StandingByBridge", true);
-                if (Input.GetKeyDown("e"))
+                if (Input.GetKeyDown(KeyCode.E))
                 {
                     animator_Bridge.SetBool("bool_bridge", true);
-                    Debug.Log("You pressed e");
+                    seedIMG.SetActive(false);
+                    waterBucketIMG.SetActive(false);
+                    miracleGrowIMG.SetActive(false);
                 }
                 break;
             case "GetSeed":
