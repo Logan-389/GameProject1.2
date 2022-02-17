@@ -9,6 +9,7 @@ public class DateTransfer : MonoBehaviour
     public GameObject inputField;
     public GameObject textDisplay;
     public string theCorrectDate;
+    public string theCorrectDate2;
 
     public static bool GameIsPausedCode = false;
 
@@ -58,8 +59,9 @@ public class DateTransfer : MonoBehaviour
     public void StoreDate()
     {
         theCorrectDate = "0427";
+        theCorrectDate2 = "04/27";
         theDate = inputField.GetComponent<Text>().text;
-        if (theDate.Equals(theCorrectDate))
+        if (theDate.Equals(theCorrectDate) || theDate.Equals(theCorrectDate2))
         {
             textDisplay.GetComponent<Text>().text = "The date " + theDate + " is correct!";
             InvisWall2.SetActive(false);
