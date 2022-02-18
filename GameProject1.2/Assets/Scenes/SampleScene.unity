@@ -937,7 +937,7 @@ GameObject:
   m_Name: Trees (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &17749681
@@ -1532,7 +1532,7 @@ GameObject:
   m_Name: Water (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &32982808
@@ -3038,7 +3038,7 @@ GameObject:
   m_Name: Trees (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &53249598
@@ -3551,7 +3551,7 @@ GameObject:
   m_Name: Water(5) (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &60232870
@@ -4159,7 +4159,7 @@ GameObject:
   m_Name: Water(2) (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &73573305
@@ -4614,7 +4614,7 @@ GameObject:
   m_Name: Water(5) (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &81320966
@@ -5089,7 +5089,7 @@ GameObject:
   m_Name: Water (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &96931090
@@ -6555,7 +6555,7 @@ GameObject:
   m_Name: Water (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &127816854
@@ -6745,7 +6745,7 @@ GameObject:
   m_Name: Water(5) (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &130283998
@@ -7028,7 +7028,7 @@ GameObject:
   m_Name: Trees (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &141651417
@@ -7313,7 +7313,7 @@ GameObject:
   m_Name: Trees (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &143401764
@@ -8794,7 +8794,7 @@ GameObject:
   m_Name: Water (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &176356840
@@ -8984,7 +8984,7 @@ GameObject:
   m_Name: Trees (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &183602995
@@ -10534,7 +10534,7 @@ GameObject:
   m_Name: Water(5) (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &212759969
@@ -11292,7 +11292,7 @@ GameObject:
   m_Name: Water (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &237148142
@@ -11805,7 +11805,7 @@ GameObject:
   m_Name: Water (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &247701429
@@ -12090,7 +12090,7 @@ GameObject:
   m_Name: Trees (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &252356388
@@ -13191,7 +13191,7 @@ GameObject:
   m_Name: Water(5) (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &276839042
@@ -15018,7 +15018,7 @@ GameObject:
   m_Name: Water (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &326978468
@@ -15398,7 +15398,7 @@ GameObject:
   m_Name: Trees (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &340602115
@@ -15683,7 +15683,7 @@ GameObject:
   m_Name: Water (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &345169708
@@ -15901,7 +15901,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &352038898
 MeshRenderer:
@@ -16142,7 +16142,7 @@ GameObject:
   m_Name: Water(5) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &354695305
@@ -17550,7 +17550,7 @@ GameObject:
   m_Name: Trees (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &379102144
@@ -18217,7 +18217,7 @@ GameObject:
   m_Name: Trees (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &391671638
@@ -18395,7 +18395,7 @@ GameObject:
   m_Name: Trees (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &402946966
@@ -20663,7 +20663,7 @@ GameObject:
   m_Name: Trees (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &440152352
@@ -21041,7 +21041,7 @@ GameObject:
   m_Name: Water (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &450555174
@@ -21231,7 +21231,7 @@ GameObject:
   m_Name: Trees (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &451891386
@@ -22160,7 +22160,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &466746298
 MeshRenderer:
@@ -22797,7 +22797,7 @@ GameObject:
   m_Name: Water (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &484983947
@@ -22892,7 +22892,7 @@ GameObject:
   m_Name: Water(5) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &488550277
@@ -22987,7 +22987,7 @@ GameObject:
   m_Name: Water (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &493975458
@@ -24292,7 +24292,7 @@ GameObject:
   m_Name: Water(5) (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &532618577
@@ -25540,7 +25540,7 @@ GameObject:
   m_Name: Water(5) (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &563898874
@@ -25730,7 +25730,7 @@ GameObject:
   m_Name: Water (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &564822697
@@ -26776,7 +26776,7 @@ GameObject:
   m_Name: Trees (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &584145318
@@ -27061,7 +27061,7 @@ GameObject:
   m_Name: Water(5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &590852882
@@ -27156,7 +27156,7 @@ GameObject:
   m_Name: Water(2) (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &599577942
@@ -27418,7 +27418,7 @@ GameObject:
   m_Name: Trees (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &610948043
@@ -28768,7 +28768,7 @@ GameObject:
   m_Name: Trees (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &634758887
@@ -29227,7 +29227,7 @@ GameObject:
   m_Name: Trees (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &650987083
@@ -29322,7 +29322,7 @@ GameObject:
   m_Name: Trees (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &652662765
@@ -30652,7 +30652,7 @@ GameObject:
   m_Name: Trees (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &689875676
@@ -32951,7 +32951,7 @@ GameObject:
   m_Name: Trees (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &740523956
@@ -33412,7 +33412,7 @@ GameObject:
   m_Name: Water(2) (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &755388765
@@ -33602,7 +33602,7 @@ GameObject:
   m_Name: Trees (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &761663688
@@ -34631,7 +34631,7 @@ GameObject:
   m_Name: Trees (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &799059248
@@ -35405,7 +35405,7 @@ GameObject:
   m_Name: Water (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &816140439
@@ -35595,7 +35595,7 @@ GameObject:
   m_Name: Water (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &818714708
@@ -36072,7 +36072,7 @@ GameObject:
   m_Name: Water (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &821552713
@@ -36579,7 +36579,7 @@ GameObject:
   m_Name: Water (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &835172588
@@ -38490,7 +38490,7 @@ GameObject:
   m_Name: Water (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &892104989
@@ -38585,7 +38585,7 @@ GameObject:
   m_Name: Water (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &893084249
@@ -38775,7 +38775,7 @@ GameObject:
   m_Name: Water (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &896976912
@@ -39354,7 +39354,7 @@ GameObject:
   m_Name: Water (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &914451670
@@ -39544,7 +39544,7 @@ GameObject:
   m_Name: Water (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &916689336
@@ -40314,7 +40314,7 @@ GameObject:
   m_Name: Water(2) (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &939913390
@@ -40504,7 +40504,7 @@ GameObject:
   m_Name: Trees (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &948307477
@@ -41380,7 +41380,7 @@ GameObject:
   m_Name: Trees (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &960835869
@@ -41776,7 +41776,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &971944937
 MeshRenderer:
@@ -42130,7 +42130,7 @@ GameObject:
   m_Name: Trees (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &974887498
@@ -42590,7 +42590,7 @@ GameObject:
   m_Name: Trees (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &985207171
@@ -42685,7 +42685,7 @@ GameObject:
   m_Name: Water (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &988891963
@@ -42876,7 +42876,7 @@ GameObject:
   m_Name: Trees (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &989347074
@@ -43066,7 +43066,7 @@ GameObject:
   m_Name: Water (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &996056335
@@ -43256,7 +43256,7 @@ GameObject:
   m_Name: Trees (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1001721401
@@ -43923,7 +43923,7 @@ GameObject:
   m_Name: Trees (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1016707155
@@ -44113,7 +44113,7 @@ GameObject:
   m_Name: Trees (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1020437612
@@ -44208,7 +44208,7 @@ GameObject:
   m_Name: Water (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1020522144
@@ -44521,7 +44521,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &1028735480
 MeshRenderer:
@@ -44683,7 +44683,7 @@ GameObject:
   m_Name: Trees (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1039984309
@@ -46315,7 +46315,7 @@ GameObject:
   m_Name: Water (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1078137984
@@ -46790,7 +46790,7 @@ GameObject:
   m_Name: Trees (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1088419722
@@ -47360,7 +47360,7 @@ GameObject:
   m_Name: Trees (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1098028279
@@ -48678,7 +48678,7 @@ GameObject:
   m_Name: Water (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1122653129
@@ -49592,7 +49592,7 @@ GameObject:
   m_Name: Water(2) (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1140935335
@@ -49782,7 +49782,7 @@ GameObject:
   m_Name: Trees (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1148534197
@@ -50352,7 +50352,7 @@ GameObject:
   m_Name: Trees (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1158433808
@@ -50922,7 +50922,7 @@ GameObject:
   m_Name: Water(2) (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1171493276
@@ -51017,7 +51017,7 @@ GameObject:
   m_Name: Trees (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1175087028
@@ -51383,7 +51383,7 @@ GameObject:
   m_Name: Water (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1183097464
@@ -51652,7 +51652,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &1191681237
 MeshRenderer:
@@ -52653,7 +52653,7 @@ GameObject:
   m_Name: Trees (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1205115400
@@ -53190,7 +53190,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &1214871305
 MeshRenderer:
@@ -53542,7 +53542,7 @@ GameObject:
   m_Name: Trees (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1226449331
@@ -53922,7 +53922,7 @@ GameObject:
   m_Name: Water (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1230164492
@@ -54749,7 +54749,7 @@ GameObject:
   m_Name: Trees (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1250312695
@@ -55391,7 +55391,7 @@ GameObject:
   m_Name: Trees (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1275650486
@@ -57848,7 +57848,7 @@ GameObject:
   m_Name: Water(5) (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1348108991
@@ -58038,7 +58038,7 @@ GameObject:
   m_Name: Water(5) (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1350550675
@@ -58308,7 +58308,7 @@ GameObject:
   m_Name: Water (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1352630871
@@ -59329,7 +59329,7 @@ GameObject:
   m_Name: Trees (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1369672334
@@ -59994,7 +59994,7 @@ GameObject:
   m_Name: Trees (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1385402064
@@ -60374,7 +60374,7 @@ GameObject:
   m_Name: Trees (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1400595440
@@ -61077,7 +61077,7 @@ GameObject:
   m_Name: Trees (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1422821682
@@ -64900,7 +64900,7 @@ GameObject:
   m_Name: Water(5) (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1523297073
@@ -65845,7 +65845,7 @@ GameObject:
   m_Name: Water (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1540695141
@@ -66400,7 +66400,7 @@ GameObject:
   m_Name: Trees (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1558948088
@@ -66780,7 +66780,7 @@ GameObject:
   m_Name: Water(2) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1562366679
@@ -67097,7 +67097,7 @@ GameObject:
   m_Name: Water (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1566360254
@@ -68069,7 +68069,7 @@ GameObject:
   m_Name: Trees (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1584202005
@@ -68987,7 +68987,7 @@ GameObject:
   m_Name: Trees (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1615681198
@@ -69924,7 +69924,7 @@ GameObject:
   m_Name: Trees (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1638263109
@@ -70642,7 +70642,7 @@ GameObject:
   m_Name: Water (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1665492222
@@ -70860,7 +70860,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &1669575174
 MeshRenderer:
@@ -71231,7 +71231,7 @@ GameObject:
   m_Name: Trees (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1686709288
@@ -71500,7 +71500,7 @@ GameObject:
   m_Name: Trees (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1690241478
@@ -71595,7 +71595,7 @@ GameObject:
   m_Name: Trees (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1693192500
@@ -71880,7 +71880,7 @@ GameObject:
   m_Name: Water (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1702156820
@@ -72355,7 +72355,7 @@ GameObject:
   m_Name: Trees (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1715623243
@@ -72828,7 +72828,7 @@ GameObject:
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1725471466
@@ -73477,7 +73477,7 @@ GameObject:
   m_Name: Water (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1736282857
@@ -75302,7 +75302,7 @@ GameObject:
   m_Name: Trees (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1761751122
@@ -75696,7 +75696,7 @@ GameObject:
   m_Name: Trees (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1766601110
@@ -76137,7 +76137,7 @@ GameObject:
   m_Name: Trees (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1776753929
@@ -76327,7 +76327,7 @@ GameObject:
   m_Name: Water (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1781359664
@@ -76462,7 +76462,7 @@ GameObject:
   m_Name: Water (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1783423873
@@ -76938,7 +76938,7 @@ GameObject:
   m_Name: Water(2) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1790383043
@@ -77251,7 +77251,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &1798549601
 MeshRenderer:
@@ -77346,7 +77346,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &1799124015
 MeshRenderer:
@@ -77682,7 +77682,7 @@ GameObject:
   m_Name: Trees (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1810072781
@@ -78162,7 +78162,7 @@ GameObject:
   m_Name: Water(2) (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1821114808
@@ -78812,7 +78812,7 @@ GameObject:
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1834200659
@@ -79002,7 +79002,7 @@ GameObject:
   m_Name: Water(2) (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1835952797
@@ -79681,7 +79681,7 @@ GameObject:
   m_Name: Trees (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1844741283
@@ -79943,7 +79943,7 @@ GameObject:
   m_Name: Water(5) (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1852664056
@@ -80133,7 +80133,7 @@ GameObject:
   m_Name: Water(5) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1864133070
@@ -81136,7 +81136,7 @@ GameObject:
   m_Name: Trees (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1889599981
@@ -81458,7 +81458,7 @@ GameObject:
   m_Name: Water(2) (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1898823523
@@ -81648,7 +81648,7 @@ GameObject:
   m_Name: Water(2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1901874688
@@ -82366,7 +82366,7 @@ GameObject:
   m_Name: Water(2) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1920597683
@@ -83031,7 +83031,7 @@ GameObject:
   m_Name: Water (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1933526964
@@ -83490,7 +83490,7 @@ GameObject:
   m_Name: Water (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1940949425
@@ -83585,7 +83585,7 @@ GameObject:
   m_Name: Water (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1945235873
@@ -83870,7 +83870,7 @@ GameObject:
   m_Name: Trees (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1948913158
@@ -84329,7 +84329,7 @@ GameObject:
   m_Name: Trees (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1957563597
@@ -84547,7 +84547,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5629608, y: 0, z: 0.8655376}
+  m_Size: {x: 0.5629608, y: 1, z: 0.8655376}
   m_Center: {x: 0.037268084, y: -0.4999995, z: 0.03516726}
 --- !u!23 &1959424418
 MeshRenderer:
@@ -84804,7 +84804,7 @@ GameObject:
   m_Name: Trees (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1965836084
@@ -84899,7 +84899,7 @@ GameObject:
   m_Name: Water(2) (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1966924990
@@ -85279,7 +85279,7 @@ GameObject:
   m_Name: Water (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1969311526
@@ -85374,7 +85374,7 @@ GameObject:
   m_Name: Water (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1971050448
@@ -85578,7 +85578,7 @@ GameObject:
   m_Name: Water(2) (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1975867352
@@ -85673,7 +85673,7 @@ GameObject:
   m_Name: Water (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1986422790
@@ -87170,7 +87170,7 @@ GameObject:
   m_Name: Water(5) (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2014403040
@@ -88120,7 +88120,7 @@ GameObject:
   m_Name: Trees (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2043730932
@@ -90077,7 +90077,7 @@ GameObject:
   m_Name: Trees (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2089699139
@@ -90738,7 +90738,7 @@ GameObject:
   m_Name: Water(5) (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2104502487
@@ -91155,7 +91155,7 @@ GameObject:
   m_Name: Water (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2109974188
@@ -91345,7 +91345,7 @@ GameObject:
   m_Name: Sub-Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2110519242
@@ -92920,7 +92920,7 @@ GameObject:
   m_Name: Water (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2146247500
