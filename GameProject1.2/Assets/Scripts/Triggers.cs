@@ -35,6 +35,7 @@ public class Triggers : MonoBehaviour
     public GameObject tr_monster2;
     public GameObject monster;
     public GameObject monster2;
+    public GameObject Backgound_Audio;
 
     /* puzzle 2 */
     public GameObject Door_Left;
@@ -43,10 +44,14 @@ public class Triggers : MonoBehaviour
     Animator animator_Door_Right;
 
     /* item UI */
+    public GameObject InventoryUI;
     public GameObject seedIMG;
     public GameObject miracleGrowIMG;
     public GameObject bucketIMG;
     public GameObject waterBucketIMG;
+    public GameObject MapA;
+    public GameObject MapB;
+
 
     void Start()
     {
@@ -67,47 +72,55 @@ public class Triggers : MonoBehaviour
             case "CatBeginningDialogue":
                 Debug.Log("Meow");
                 sound1.Play();
+                InventoryUI.SetActive(false);
                 catDialogue1.SetActive(true);
                 Time.timeScale = 0f;
                 break;
             case "CatVineDialogue":
                 Debug.Log("Meow");
                 sound2.Play();
+                InventoryUI.SetActive(false);
                 catDialogue2.SetActive(true);
                 Time.timeScale = 0f;
                 break;
             case "CatLakeDialogue":
                 Debug.Log("Meow");
                 sound3.Play();
+                InventoryUI.SetActive(false);
                 catDialogue3.SetActive(true);
                 Time.timeScale = 0f;
                 break;
             case "CatExitDialogue":
                 Debug.Log("Meow");
                 sound4.Play();
+                InventoryUI.SetActive(false);
                 catDialogue4.SetActive(true);
                 Time.timeScale = 0f;
                 break;
             case "CatBridgeDialogue":
                 Debug.Log("Meow");
                 sound5.Play();
+                InventoryUI.SetActive(false);
                 catDialogue5.SetActive(true);
                 Time.timeScale = 0f;
                 break;
             case "CatHouseLeftDialogue":
                 Debug.Log("Meow");
                 sound6.Play();
+                InventoryUI.SetActive(false);
                 catDialogue6.SetActive(true);
                 Time.timeScale = 0f;
                 break;
             case "CatHouseRightDialogue":
                 Debug.Log("Meow");
                 sound7.Play();
+                InventoryUI.SetActive(false);
                 catDialogue7.SetActive(true);
                 Time.timeScale = 0f;
                 break;
             case "TriggerForDate":
                 CodeInputMenu.SetActive(true);
+                InventoryUI.SetActive(false);
                 Time.timeScale = 0f;
                 break;
 
@@ -149,10 +162,13 @@ public class Triggers : MonoBehaviour
                 break;
             case "TurnOnMonster1":
                 monster.SetActive(true);
+                Backgound_Audio.SetActive(true);
                 break;
             case "TurnOnMonster2":
                 monster.SetActive(false);
                 monster2.SetActive(true);
+                MapA.SetActive(false);
+                MapB.SetActive(true);
                 break;
             case "BadEndTrigger":
                 Debug.Log("You got the bad end.");
@@ -230,6 +246,7 @@ public class Triggers : MonoBehaviour
                 break;
             case "TriggerForDate":
                 CodeInputMenu.SetActive(false);
+                InventoryUI.SetActive(true);
                 break;
 
         }

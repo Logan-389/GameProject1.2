@@ -9,6 +9,7 @@ public class DialogueManager4 : MonoBehaviour
     public GameObject dialogueMenuUI;
     public GameObject dialogue1;
     public GameObject dialogue2;
+    public GameObject InventoryUI;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class DialogueManager4 : MonoBehaviour
             dialogue2.SetActive(false);
             dialogue1.SetActive(true);
             dialogueMenuUI.SetActive(false);
+            InventoryUI.SetActive(true);
             Time.timeScale = 1f;
         }
 
