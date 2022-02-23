@@ -14,6 +14,8 @@ public class FP_ControllerMovement : MonoBehaviour
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
 
+    public float sprintTimeLimit = 15;
+
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     
@@ -21,22 +23,29 @@ public class FP_ControllerMovement : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
+    [HideInInspector]
+    public float sprintTimer;
+
+    [HideInInspector]
+    public bool canRun;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
 
-        // Lock cursor
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        sprintTimer = sprintTimeLimit;
     }
 
     void Update()
     {
+            Debug.Log(sprintTimer);
             // We are grounded, so recalculate move direction based on axes
             Vector3 forward = transform.TransformDirection(Vector3.forward);
             Vector3 right = transform.TransformDirection(Vector3.right);
             // Press Left Shift to run
-            bool isRunning = Input.GetKey(KeyCode.LeftShift);
+            
+            bool isRunning = canRun && sprintTimer > 0 && Input.GetKey(KeyCode.LeftShift);
+            
             float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
             float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
             float movementDirectionY = moveDirection.y;
@@ -46,29 +55,15 @@ public class FP_ControllerMovement : MonoBehaviour
             moveDirection.x *= curSpeedY;
          
             
-
-            // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
-            // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
-            // as an acceleration (ms^-2)
-            if (!characterController.isGrounded)
-            {
-                moveDirection.y -= gravity * Time.deltaTime;
-            }
-
-            // Move the controller
             characterController.Move(moveDirection * Time.deltaTime);
 
-            // Player and Camera rotation
-
-        /*
-            if (canMove)
-            {
-                rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
-                rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
-                playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-                transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+            if (isRunning) {
+                sprintTimer = Mathf.Max(0, sprintTimer - Time.deltaTime);
+                canRun = sprintTimer > 0;
+            } else {
+                sprintTimer = Mathf.Min(sprintTimeLimit, sprintTimer + Time.deltaTime);
+                canRun = canRun || sprintTimer >= sprintTimeLimit;
             }
-        */
 
     }
 }
