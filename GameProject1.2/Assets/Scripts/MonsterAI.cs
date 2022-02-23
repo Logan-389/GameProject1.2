@@ -56,7 +56,7 @@ public class MonsterAI : MonoBehaviour
     IEnumerator WanderCycle()
     {
         hunting = false;
-        var wanderOrigin = transform.position;
+        var wanderOrigin = player.transform.position;
         Debug.Log("Wandering around " + wanderOrigin);
         for (int i = 0; i < 4; i++)
         {
