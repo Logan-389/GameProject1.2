@@ -26,6 +26,7 @@ TagManager:
   - CatHouseLeftDialogue
   - CatHouseRightDialogue
   - TurnOnMonster1
+  - GhostJump_tr
   layers:
   - Default
   - TransparentFX

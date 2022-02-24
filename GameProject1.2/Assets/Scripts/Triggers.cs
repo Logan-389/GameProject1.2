@@ -43,6 +43,10 @@ public class Triggers : MonoBehaviour
     public GameObject Door_Right;
     Animator animator_Door_Right;
 
+    public GameObject GhostJumpScare;
+    Animator animator_GhostJumpScare;
+    public AudioSource JumpScareAudio;
+
     /* item UI */
     public GameObject InventoryUI;
     public GameObject seedIMG;
@@ -53,11 +57,13 @@ public class Triggers : MonoBehaviour
     public GameObject MapB;
 
 
+
     void Start()
     {
         animator_Bridge = Bridge.GetComponent<Animator>();
         animator_Door_Left = Door_Left.GetComponent<Animator>();
         animator_Door_Right = Door_Right.GetComponent<Animator>();
+        animator_GhostJumpScare = GhostJumpScare.GetComponent<Animator>();
     }
 
     public void OnTriggerEnter(Collider col)
@@ -122,6 +128,10 @@ public class Triggers : MonoBehaviour
                 CodeInputMenu.SetActive(true);
                 InventoryUI.SetActive(false);
                 Time.timeScale = 0f;
+                break;
+            case "GhostJump_tr":
+                animator_GhostJumpScare.SetTrigger("GhostJump_tr");
+                JumpScareAudio.Play();
                 break;
 
         }

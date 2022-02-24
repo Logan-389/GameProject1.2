@@ -10,6 +10,7 @@ public class DialogueManager3 : MonoBehaviour
     public GameObject dialogue1;
     public GameObject dialogue2;
     public GameObject dialogue3;
+    public GameObject dialogue4;
     public GameObject InventoryUI;
 
     // Start is called before the first frame update
@@ -37,6 +38,10 @@ public class DialogueManager3 : MonoBehaviour
         } else if (dialogue3.activeSelf == true)
         {
             dialogue3.SetActive(false);
+            dialogue4.SetActive(true);
+        } else if (dialogue4.activeSelf == true)
+        {
+            dialogue4.SetActive(false);
             dialogue1.SetActive(true);
             dialogueMenuUI.SetActive(false);
             InventoryUI.SetActive(true);
