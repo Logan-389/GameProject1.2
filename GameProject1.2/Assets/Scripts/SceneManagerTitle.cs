@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerTitle : MonoBehaviour
 {
+
+    public GameObject Quad2;
+    public GameObject textInstructions;
+    bool onePress = false;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
@@ -14,7 +19,13 @@ public class SceneManagerTitle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyUp("space") && onePress == false)
+        {
+            onePress = true;
+            Quad2.SetActive(false);
+            textInstructions.SetActive(true);
+        }
+        if (Input.GetKeyDown("space") && onePress == true)
         {
             SceneManager.LoadScene("SampleScene");
         }
