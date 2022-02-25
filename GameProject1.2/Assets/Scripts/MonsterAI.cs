@@ -55,13 +55,14 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator WanderCycle()
     {
+        const float radius = 1.5f;
         hunting = false;
         var wanderOrigin = player.transform.position;
         Debug.Log("Wandering around " + wanderOrigin);
         for (int i = 0; i < 4; i++)
         {
             
-            agent.destination = wanderOrigin + new Vector3(Random.Range(-1, 1), 0, Random.Range(-1, 1));
+            agent.destination = wanderOrigin + new Vector3(Random.Range(-radius, radius), 0, Random.Range(-radius, radius));
 
             yield return new WaitForSeconds(4);
         }
